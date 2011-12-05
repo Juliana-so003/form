@@ -1,0 +1,4 @@
+"matricula","nome_aluno","cidade","rua","casa","fone","nome_responsavel"
+"cod_materia","nome_materia","id_prof"
+"cod_materia","matricula"
+"id_prof","nome_prof","cpf","ano"
