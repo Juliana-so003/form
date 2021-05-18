@@ -7,7 +7,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #ddd8d8;
+    background-color: #f3ebeb;
 }
 a:link{
     text-decoration: none;
@@ -63,9 +63,10 @@ figcaption{
     color: rgb(24, 24, 26, 1);
     font-size: 12px;
 }
-h4{
+h2{
     color: #C3170B;
 }
+
 .grid1{
     grid-area: a;
 }
@@ -74,4 +75,14 @@ h4{
 }
 .grid3{
     grid-area: c;
+}
+.video{
+    display: flex;
+    justify-content: center;  
+}
+.legenda{
+   
+    line-height: 23px;
+    font-family: Merriweather,serif;
+    font-size: 14px;
 }
