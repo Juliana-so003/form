@@ -46,10 +46,12 @@ a:link{
 
 .container{
     margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: 
+    "a b"
+    "c c";
 }
 
 img{
@@ -63,4 +65,13 @@ figcaption{
 }
 h4{
     color: #C3170B;
+}
+.grid1{
+    grid-area: a;
+}
+.grid2{
+    grid-area: b;
+}
+.grid3{
+    grid-area: c;
 }
