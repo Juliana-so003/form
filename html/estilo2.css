@@ -1,10 +1,9 @@
 @media screen and (max-width: 450px){
     .menu{
          width: 100%;
-         padding: 20px 0 5px 0;
+         margin: 20px 0 5px 0;
     }
     .image{
-
         margin-left: 45%;
         width: 20px;
     height: 20px;
@@ -20,7 +19,7 @@ height: 50px;
     margin-right: 10px;
      font-size: 15px;
 }
-
+  
 }
 body{
     background-color: #ddd8d8;
