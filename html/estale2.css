@@ -86,18 +86,3 @@ h2{
     font-family: Merriweather,serif;
     font-size: 14px;
 }
-#conversa1{
-display: flex;
-    justify-content: center;
-    align-items: center;  
-    margin: 20px 0 20px 0;
-}
-#conversa{
-    margin-right: 8px;
-    border-radius: 15px;
-   border-left-width: 5px;
-   border-left-color:#C3170B;
-     border-left-style: solid;
-     height: 100px;
-     width: 2px;
-}

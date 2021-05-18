@@ -41,6 +41,7 @@ a:link{
  padding: 20px 20px 5px 0px;
  justify-content: center;
  display: flex;
+
  
 }
 .image{
@@ -66,7 +67,7 @@ a:link{
 }
 
 .container{
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -94,4 +95,9 @@ figcaption{
 }
 h6{
     color: #C3170B;
+}
+*{
+    margin: 0;
+    border:0;
+    padding: 0;
 }
