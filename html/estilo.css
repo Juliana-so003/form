@@ -73,17 +73,7 @@ a:link{
     display: flex;
     flex-direction: column;
 }
-.noticia1{
-    margin-bottom: 15px;
-    border-radius: 15px;
-    padding: 17px;
-    align-items: center;
-    display: flex;
-    background-color: #ffffff;
-    height: 310px;
-    width: 380px;
-    flex-direction: column;
-}
+
 img{
     border-radius: 10px;
     height: 200px;
@@ -100,4 +90,21 @@ h6{
     margin: 0;
     border:0;
     padding: 0;
+}
+.noticia1{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 17px;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    height: 310px;
+    width: 380px;
+    flex-direction: column;
+}
+.noticia1:hover{
+    background-color: rgb(187, 184, 184);
+}
+.noticia1:active{
+     background-color: rgb(155, 153, 153);
 }

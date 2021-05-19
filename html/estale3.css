@@ -78,6 +78,7 @@ h2{
    display: flex;
     align-items: center;
     flex-direction: column;
+  
 }
 .video{
     display: flex;
@@ -90,7 +91,30 @@ h2{
     font-size: 14px;
 }
 #wesley{
-    max-width: 200px;
+    max-width: 250px;
     min-height: 300px;
     border-radius: 10px;
+}
+#conversa{
+    margin-right: 9px;
+    border-radius: 15px;
+     height: 100px;
+     width: 2px;
+     border-left: 4px solid #C4170C;
+}
+#conversa1{
+display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px 0 20px 0;
+}
+#p{
+    color:#000000;
+}
+p{
+    text-align: justify;
+    
+}
+.p{
+    margin: 10px 30px 10px 30px;
 }

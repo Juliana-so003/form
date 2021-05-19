@@ -93,17 +93,18 @@ h2{
 display: flex;
     justify-content: center;
     align-items: center;  
-    margin: 20px 0 20px 0;
+    margin: 20px 0 100px 20px;
 }
 #conversa{
     margin-right: 8px;
+   
     border-radius: 15px;
-     height: 100px;
+     height: 150px;
      width: 2px;
      border-left: 4px solid #C4170C;
 }
 #wesley{
-    
+    margin-right: 15px;
     border-radius: 10px;
 }
 #conversa1 > p{
@@ -114,4 +115,13 @@ display: flex;
     color: #555555;
     margin: 16px 0px 0px;
     font:12px opensans, helvetica, arial;
+}
+p{
+    text-align: justify;
+    
+}
+.centro{
+    margin: 15px 0 0px 0;
+    display: flex;
+    justify-content: center;
 }
