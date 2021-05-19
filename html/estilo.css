@@ -71,7 +71,7 @@ a:link{
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 img{
@@ -96,14 +96,14 @@ h6{
     padding: 0;
 }
 .noticia1{
-    margin-bottom: 15px;
+    margin-left: 10px;
     border-radius: 15px;
     padding: 17px;
     align-items: center;
     display: flex;
     background-color: #ffffff;
     height: 310px;
-    width: 370px;
+    width: 350px;
     flex-direction: column;
 }
 .noticia1:hover{

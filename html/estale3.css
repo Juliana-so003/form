@@ -56,15 +56,17 @@ a:link{
 
 img{
     border-radius: 10px;
-    height: 200px;
+    height: 180px;
     width: 300px;
 }
 figcaption{
     color: rgb(24, 24, 26, 1);
     font-size: 12px;
+    
 }
 h2{
     color: #C3170B;
+    margin-bottom: 10px;
 }
 
 .grid1{

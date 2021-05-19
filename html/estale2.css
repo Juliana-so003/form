@@ -65,6 +65,7 @@ figcaption{
 }
 h2{
     color: #C3170B;
+    margin-top: 10px;
 }
 
 .grid1{
@@ -75,14 +76,42 @@ h2{
 }
 .grid3{
     grid-area: c;
-}
-.video{
     display: flex;
-    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
 }
 .legenda{
    
     line-height: 23px;
     font-family: Merriweather,serif;
     font-size: 14px;
+}
+p{
+    text-align: justify;
+    
+}
+.p{
+    margin: 10px 30px 10px 30px;
+}
+#wesley{
+    max-width: 300px;
+    min-height: 260px;
+    border-radius: 10px;
+}
+#conversa1{
+display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px 0 10px 20px;
+    text-align: justify;
+}
+#conversa{
+    margin-right: 10px;
+    border-radius: 15px;
+     height: 160px;
+     width: 2px;
+     border-left: 4px solid #C4170C;
+}
+h5{
+    margin-bottom: 5px;
 }
