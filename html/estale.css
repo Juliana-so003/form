@@ -75,6 +75,9 @@ h2{
 }
 .grid3{
     grid-area: c;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .video{
     display: flex;
@@ -95,9 +98,20 @@ display: flex;
 #conversa{
     margin-right: 8px;
     border-radius: 15px;
-   border-left-width: 5px;
-   border-left-color:#C3170B;
-     border-left-style: solid;
      height: 100px;
      width: 2px;
+     border-left: 4px solid #C4170C;
+}
+#wesley{
+    
+    border-radius: 10px;
+}
+#conversa1 > p{
+    font-size: 25px;
+    color: #333;
+}
+.legenda{
+    color: #555555;
+    margin: 16px 0px 0px;
+    font:12px opensans, helvetica, arial;
 }

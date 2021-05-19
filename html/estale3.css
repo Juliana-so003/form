@@ -75,6 +75,9 @@ h2{
 }
 .grid3{
     grid-area: c;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .video{
     display: flex;
@@ -85,4 +88,9 @@ h2{
     line-height: 23px;
     font-family: Merriweather,serif;
     font-size: 14px;
+}
+#wesley{
+    max-width: 200px;
+    min-height: 300px;
+    border-radius: 10px;
 }
