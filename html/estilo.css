@@ -75,6 +75,7 @@ a:link{
 }
 
 img{
+    margin: 5px 0 10px 17px;
     border-radius: 10px;
     height: 200px;
     width: 300px;
@@ -82,9 +83,12 @@ img{
 figcaption{
     color: rgb(24, 24, 26, 1);
     font-size: 12px;
+    margin-left: 20px;
 }
 h6{
+ 
     color: #C3170B;
+    margin:5px 0 0 20px;
 }
 *{
     margin: 0;
@@ -99,7 +103,7 @@ h6{
     display: flex;
     background-color: #ffffff;
     height: 310px;
-    width: 380px;
+    width: 370px;
     flex-direction: column;
 }
 .noticia1:hover{

@@ -72,6 +72,7 @@ h2{
 }
 .grid2{
     grid-area: b;
+    margin-top: 20px;
 }
 .grid3{
     grid-area: c;
@@ -124,4 +125,9 @@ p{
     margin: 15px 0 0px 0;
     display: flex;
     justify-content: center;
+}
+#nome{
+    color: #080808;
+    font: 16px opensanstitle, helvetica;
+    margin: 0 0 8px;
 }
