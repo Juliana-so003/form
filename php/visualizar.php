@@ -16,25 +16,21 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <h1>Cadastro</h1><br>
+    <h1>ver</h1><br>
     <div class="container">
         <div class="row">
             <?php
             require 'conexao.php';
 
-            $sql = "SELECT * FROM `tbprofessor` WHERE 1";
+            $sql = "SELECT * FROM `tbaluno`";
             $retorno = $conexao->query($sql);
             if ($retorno->num_rows > 0) {
                 while ($linha = $retorno->fetch_assoc()) {
-                    echo $linha['id_prof'] . $linha['nome_prof'] . $linha['cpf'] . $linha['ano'] . '<br/>';
+                    echo $linha['nome'] . '<br/>';
                 }
             } else {
                 echo "nao foi encontrado";
             }
 
             ?>
-        </div>
-    </div>
-</body>
-
-</html>
+       

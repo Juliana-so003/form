@@ -20,20 +20,21 @@
     <div class="container">
         <div class="row">
             <?php
-            require 'index.php';
-
-          include "conexao.php";
+            
+            require 'conexao.php';
           $nome = $_POST['nome'];
 
-         $sql = "INSERT INTO `tbmateria`( `nome_materia`) VALUES ('$nome')";
+         $sql = "INSERT INTO `tbAluno`(`nome`) VALUES ('$nome')";
          if(mysqli_query($conn, $sql)){
-             echo "deu certo $nome";
+             echo "deu certo $nome". '<br/>';
+              echo $nome . '<br/>';
          }else {
              echo "erro!!!";
          }
-
+           
             ?>
         </div>
+      <a href="index.php">  <p>voltar</p></a>
     </div>
 </body>
 

@@ -14,15 +14,7 @@
 
 <body>
     <?php
-    $servidor = "localhost";
-    $usuario = "root";
-    $senha = "";
-    $database = "dbescola";
-    if ($conn = mysqli_connect($servidor, $usuario, $senha, $database)) {
-        echo "ok";
-    } else {
-        echo "deu merda";
-    }
+    require 'conexao.php';
     ?>
     <h1>Hello, world!</h1>
 
@@ -32,8 +24,36 @@
         <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" class="form-control" name="nome">
+        </div><br>
+        <div class="form-group">
+            <input type="submit" class="btn-success">
         </div>
     </form>
+
+    <h1>Cadastro</h1><br>
+    <div class="container">
+        <div class="row">
+            <?php
+            
+            require 'conexao.php';
+            $nome = $_POST['nome'];
+
+            $sql = "SELECT * FROM `tbaluno` WHERE 1";
+            $retorno = $conexao->query($sql);
+            if ($retorno->num_rows > 0) {
+                while ($linha = $retorno->fetch_assoc()) {
+                    echo $linha['nome']. '<br/>';
+                }
+            } else {
+                echo "nao foi encontrado";
+            }
+
+
+            ?>
+        </div>
+    </div>
+
+
 </body>
 
 </html>

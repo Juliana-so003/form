@@ -2,9 +2,9 @@
     $servidor = "localhost";
     $usuario = "root";
     $senha = "";
-    $database = "dbescola";
+    $database = "dbTeste";
     if($conn = mysqli_connect($servidor, $usuario, $senha, $database)){
-        echo "ok";
+       // echo "ok";
     }else {
         echo "deu merda";
     }
