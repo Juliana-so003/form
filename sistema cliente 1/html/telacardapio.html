@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cardapio</title>
+
+  <link rel="stylesheet" href="../css/Cardapio.css">
+  
+  <link rel="stylesheet" href="../css/Cardapio2.css">
+</head>
+
+<body>
+    <!-- div preta que esta sobre a img de fundo-->
+  <div class="body2"></div>
+
+  <!-- bolinha la de cima-->
+  <div id="menu">
+    <p id="p_menu">Cardapio</p>
+  </div>
+   
+     <!-- categorias-->
+ <div class="container1">
+     
+    <input type="radio" name="menu" id="radio0" checked />
+    <label for="radio0">
+      <a href="#"> <p class="p">Entrada</p></a>
+      </label>
+ 
+    <input type="radio" name="menu" id="radio1">
+    <label for="radio1">
+      <a href="#"><p class="p">Acompanhamento</p></a>
+    </label>
+  
+    <input type="radio" name="menu" id="radio2">
+    <label for="radio2">
+      <a href="#"><p class="p">Principal</p></a>
+      </label>
+  
+    <input type="radio" name="menu" id="radio3">
+    <label for="radio3">
+      <a href="#"><p class="p">Bebidas</p></a>
+      </label>
+  
+    <input type="radio" name="menu" id="radio4">
+    <label for="radio4">
+      <a href="#"><p class="p">Sobremesa</p></a>
+    </label>
+
+    <div class="selecione-elemento">
+      <div class="circle"></div>
+    </div>
+  </div>
+  
+
+      <!-- container dos pratos-->
+  <div id="container2">
+    
+      <!-- primeira coluna dos pratos -->
+      <div class="sub_container2">
+        
+    <div class="pratos">
+    <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
+     <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
+     <p class="p_prato2">
+     Valor :$12,00</p>
+    </div>
+    
+      <div class="pratos">
+    <img class="img_container2" src="../Entradas/torradinhas.jpg">
+       <p class="p_prato1">Patê de azeitona com torradinhas.</p>
+       <p class="p_prato2">
+   Valor: R$40,00</p>
+      </div>
+      
+        <div class="pratos">
+        <img class="img_container2" src="../Entradas/pao-de-alho.jpg">
+        <p class="p_prato1">Pão de alho.</p>
+        <p class="p_prato2">
+Valor: R$3,70</p>
+        </div>
+        
+          <div class="pratos">
+            <img class="img_container2" src="../Entradas/pao-de-alho.jpg">
+            <p class="p_prato1">Pão de alho.</p>
+            <p class="p_prato2">
+              Valor: R$3,70</p>
+          </div>
+      
+         <div class="pratos">
+    <img class="img_container2" src="../Entradas/Massa-folhada.jpg">
+     <p class="p_prato1"> Massa folhada com presunto e queijo.</p>
+     <p class="p_prato2">
+     Valor :$12,00</p>
+    </div>
+    
+      <div class="pratos">
+    <img class="img_container2" src="../Entradas/torradinhas.jpg">
+       <p class="p_prato1">Patê de azeitona com torradinhas.</p>
+       <p class="p_prato2">
+   Valor: R$40,00</p>
+      </div></div>
+      
+     <!-- segunda coluna dos pratos-->
+    <div class="sub_container2">
+          <div class="pratos">
+        <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
+       <p class="p_prato1">Batata recheada com calabresa.</p>
+       <p class="p_prato2">
+Valor: R$20,90</p>
+          </div>
+          
+          <div class="pratos">
+        <img class="img_container2" src="../Entradas/batata_sol.webp">
+        <p class="p_prato1">Batata recheada de carne do sol.</p>
+        <p class="p_prato2">
+Valor: R$20,90</p>
+          </div>
+          
+         <div class="pratos">
+        <img class="img_container2" src="../Entradas/caldo-mandioquinha.jpg">
+       <p class="p_prato1">Caldo de mandioquinha.</p>
+       <p class="p_prato2">
+Valor: R$17,80</p>
+         </div>
+         
+        <div class="pratos">
+      <img class="img_container2" src="../Entradas/caldo-mandioquinha.jpg">
+      <p class="p_prato1">Caldo de mandioquinha.</p>
+         <p class="p_prato2">
+          Valor: R$17,80</p>
+             </div>
+                       <div class="pratos">
+        <img class="img_container2" src="../Entradas/batata-calabresa.jpg">
+       <p class="p_prato1">Batata recheada com calabresa.</p>
+       <p class="p_prato2">
+Valor: R$20,90</p>
+          </div>
+          
+          <div class="pratos">
+        <img class="img_container2" src="../Entradas/batata_sol.webp">
+        <p class="p_prato1">Batata recheada de carne do sol.</p>
+        <p class="p_prato2">
+Valor: R$20,90</p>
+          </div>
+    </div>
+  </div>
+          
+  
+
+  <footer>
+      <!-- butao de voltar-->
+     <button type="submit" id="voltar" value="voltar">Voltar</button>
+     
+       <!-- div do botao continuar e valor-->
+    <div id="valor">
+      <p class="p_valor"> R$</p>
+      <p class="p_valor">00,00</p>
+    </div>
+    <button type="submit" id="butao" value="Continuar">Continuar</button>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

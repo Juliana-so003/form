@@ -1,0 +1,128 @@
+     *{
+       border:0;
+       padding: 0;
+     }
+     
+     body{
+      text-align: center;
+     }
+     
+#linha{
+  margin: 10px;
+}
+     #titulo,#linha{
+      text-align: center;
+      color: black;
+     }
+      
+    input{
+      border-radius: 5px;
+      padding: 9px;
+      margin-top: 9px;
+      background: #DCDCDC;
+      }
+      
+    input:focus{
+       box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  background-color: none;
+      }
+    
+    #botao{
+     justify-content: center;
+     text-align: center;
+     color:#fff;
+     padding: 10px;
+     margin-top: 10px;
+     width: 30vw;
+     height: 10vh;
+    left: 50px;
+    top: 24em;
+background: #9E0705;
+box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+    }
+  
+    #botao:hover{
+background: #4d0706;
+    }
+    p{
+     text-align:justify;
+     margin: 20px 0 0 7px;
+    }
+    p,a{
+      text-decoration: none;
+      color:black;
+    }
+    p,a:hover{
+      color: #413f3f ;
+    }
+    .container1{
+      font-size: 1em;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #DCDCDC;
+      padding:9px;
+      border-radius: 7px;
+      box-shadow: 0px 0px 8px 2px #989898;
+      padding : 20px;
+      justify-content: center;
+      align-items: center;
+      height: 448px;
+      }
+    .container{
+      flex-direction: row;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    .div_input{
+      flex-direction: row;
+       background: #DCDCDC;
+       width: 328px;
+     height: 50px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #5c5b5b;
+    
+    }
+    .img1{
+   position: relative;
+   width: 30px;
+   height: 30px;
+   right: 35px;
+   top: 10px;
+
+    }
+   .img2{
+     position: relative;
+     width: 30px;
+     height: 30px;
+     top: 10px; 
+    }
+  button .fa-eye {
+       position: absolute;
+       cursor: pointer;
+       color: black;
+     }
+    .container2{
+margin-left: 5px;
+width: 400px;
+height: 485px;
+
+      border-radius: 7px;
+      box-shadow: 0px 0px 8px 2px #989898;
+     
+       background: no-repeat url(../fundos/fundo_login.png);
+      }
+      .erro{
+        margin: 0.5em 0;
+        width: 8em;
+        height: 5em;
+        background: #9E0705;
+      }
+      #erro{
+        color: #fff;
+        text-align: center;
+        
+      }
